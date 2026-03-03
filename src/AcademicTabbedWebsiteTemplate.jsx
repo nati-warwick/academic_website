@@ -21,11 +21,12 @@ const profile = {
   photo: "/profile.jpg",
   bio: `I develop reinforcement learning methods for offline and offline-to-online settings, with a focus on safety, sample efficiency, and real-world deployment. My work combines theory and large-scale experimentation in Python using PyTorch to build reliable and practical RL agents.`,
   interests: [
-    "Offline RL",
-	"Multi-Agent RL",
-    "Representation Learning",
-	"Transformers",
-    "Large Language Models",
+      "Offline RL",
+      "Multi-Agent RL",
+      "Safe ML",
+      "Representation Learning",
+      "Transformers",
+      "Large Language Models",
   ],
   education: [
     {
