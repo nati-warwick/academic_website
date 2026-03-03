@@ -1,16 +1,68 @@
-# React + Vite
+# Academic Website Template (Natinael)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository is a personal academic website template built with React + Vite and styled with Tailwind CSS.
 
-Currently, two official plugins are available:
+It is designed as a tab-based portfolio site with sections for:
+- Home
+- Publications
+- Experience
+- CV
+- Code
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
 
-## React Compiler
+- React 19
+- Vite
+- Tailwind CSS 4
+- Framer Motion
+- Lucide React icons
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Run Locally
 
-## Expanding the ESLint configuration
+```bash
+pnpm install
+pnpm dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Open the local URL shown in your terminal (usually `http://localhost:5173`).
+
+## Build
+
+```bash
+pnpm lint
+pnpm build
+pnpm preview
+```
+
+## Customize Content
+
+Most editable website content lives in:
+
+- `src/AcademicTabbedWebsiteTemplate.jsx`
+
+Update these top-level objects/arrays:
+
+- `profile`
+- `publications`
+- `experience`
+- `cv`
+- `projects`
+
+## Add Profile Photo
+
+1. Put your image in `public/` (example: `public/profile.jpg`)
+2. Set `profile.photo` to `"/profile.jpg"` in `src/AcademicTabbedWebsiteTemplate.jsx`
+
+## Add CV PDF
+
+1. Put your CV file in `public/cv.pdf`
+2. Keep `cv.file` as `"/cv.pdf"` in `src/AcademicTabbedWebsiteTemplate.jsx`
+
+## Deploy
+
+This is a static frontend and can be deployed to Vercel, Netlify, or GitHub Pages.
+
+For Vercel:
+
+- Build command: `pnpm build`
+- Output directory: `dist`
