@@ -36,7 +36,7 @@ const profile = {
     {
       degree: "MEng in Information Engineering",
       institution: "University of Cambridge",
-      years: "2018 – 2022",
+      years: "2014 – 2018",
     },
   ],
   links: {
