@@ -71,8 +71,9 @@ const publications = [
             { label: "Code", href: "https://github.com/nati-warwick/policy_switching"}
     ],
     abstract:
-      "Hybrid policy optimisation combining behaviour cloning and uncertainty-sensitive actor-critic fine-tuning.",
+      "Introduced an evaluation-time policy switching method that adaptively selects between behavioural cloning and off-policy RL using epistemic and dataset-based aleatoric uncertainty, improving offline RL robustness and enabling safer offline-to-online fine-tuning."
   },
+  
 ];
 
 const experience = [
