@@ -446,12 +446,14 @@ export default function AcademicTabbedWebsiteTemplate() {
                           }`}
                         >
                           <p className="text-sm font-medium">Technical Strengths</p>
-                          <p className={`mt-2 text-sm leading-6 ${muted}`}>
-                            Built end-to-end RL algorithms in PyTorch and evaluated them on standard benchmarks (e.g., MuJoCo) and custom environments using reproducible pipelines, systematic ablations, and W&B experiment tracking.
-                          </p>
-                          <p className={`mt-2 text-sm leading-6 ${muted}`}>
-                            I also focus on maintainable research code, clear documentation, and practical workflows that make results easier to extend and deploy.
-                          </p>
+                          <ul className={`mt-2 list-disc space-y-2 pl-5 text-sm leading-6 ${muted}`}>
+                            <li>
+                              Build end-to-end RL algorithms in PyTorch and evaluate them on standard benchmarks (e.g., MuJoCo) and custom environments using reproducible pipelines, systematic ablations, and W&B experiment tracking.
+                            </li>
+                            <li>
+                              Develop maintainable research code, clear documentation, and practical workflows that make results easier to reproduce, extend, and deploy.
+                            </li>
+                          </ul>
                         </div>
                       </div>
                     </SectionCard>
