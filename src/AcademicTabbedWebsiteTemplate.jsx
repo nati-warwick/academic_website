@@ -95,7 +95,7 @@ const experience = [
   {
     role: "Quantitative Analyst",
     company: "Superbet",
-    location: "",
+    location: "London, UK",
     period: "2018 – 2020",
     bullets: [
       "Built real-time Bayesian and ML pricing for multiple sports, then productionised models on AWS (Lambda, EC2, S3).",
