@@ -84,7 +84,7 @@ const experience = [
     location: "Coventry, UK",
     period: "2022 – 2026",
     bullets: [
-      "Publications (top venues): First-author work on robust offline RL and offline-to-online RL (e.g., AAMAS / ICLR submissions).",
+      "Publications (top venues): First-author work on robust offline RL and offline-to-online RL (e.g., AAMAS / ICLR).",
       "Developed uncertainty-aware methods to train agents on offline datasets and safely fine-tune online, including evaluation-time policy switching for robustness under distribution shift.",
       "Developed the action-free offline-to-online RL framework and proposed an RL algorithm to train discretised state policies from data without action labels to guide online agents.",
       "Built reproducible PyTorch pipelines for MuJoCo-style continuous-control tasks with seeded runs, ablations, confidence intervals, and scaled GPU training/evaluation.",
@@ -109,8 +109,8 @@ const experience = [
     location: "Cambridge, UK",
     period: "2017 – 2018",
     bullets: [
-      "Developed stability-optimised recurrent circuits (SOCs) by shaping the eigen-spectrum of recurrent weight matrices in non-linear RNNs, reproducing stable and oscillatory dynamics observed in primary motor cortex recordings.",
-      "Implemented control and training procedures to steer network activity in MATLAB and Python (TensorFlow), with experiments tracked for reproducibility.",
+      "Developed stability-optimised recurrent circuits (SOCs) by shaping the eigen-spectrum of matrices resulting in non-linear RNNs with stable and oscillatory dynamics observed similar that exhibited activity similar to real primary motor cortex recordings.",
+      "Implemented control and training procedures to steer network activity in MATLAB and Python (TensorFlow).",
       "Performed linear-algebraic analysis of small-scale SOCs (spectral radius) to explain observed phenomena.",
     ],
   },
