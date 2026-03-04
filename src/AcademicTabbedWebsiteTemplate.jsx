@@ -109,7 +109,7 @@ const experience = [
     location: "Cambridge, UK",
     period: "2017 – 2018",
     bullets: [
-      "Developed stability-optimised recurrent circuits (SOCs) by shaping the eigen-spectrum of matrices resulting in non-linear RNNs with stable and oscillatory dynamics observed similar that exhibited activity similar to real primary motor cortex recordings.",
+      "Developed stability-optimised recurrent circuits (SOCs) by shaping the eigen-spectrum of matrices resulting in non-linear RNNs with stable and oscillatory dynamics that exhibited activity similar to real primary motor cortex recordings.",
       "Implemented control and training procedures to steer network activity in MATLAB and Python (TensorFlow).",
       "Performed linear-algebraic analysis of small-scale SOCs (spectral radius) to explain observed phenomena.",
     ],
