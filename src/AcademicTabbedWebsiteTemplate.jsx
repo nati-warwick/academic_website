@@ -98,7 +98,7 @@ const experience = [
     location: "London, UK",
     period: "2018 – 2020",
     bullets: [
-      "Built real-time Bayesian and ML pricing for multiple sports, then productionised models on AWS (Lambda, EC2, S3).",
+      "Built low-latency Bayesian and ML models for pricing multiple sports (Basketball/Cricket/Handball), then productionised models on AWS (Lambda, EC2, S3).",
       "Standardised coding patterns and reusable components, and documented systems in LaTeX; reduced new-sport onboarding from several weeks to days.",
       "Integrated models with trading systems in collaboration with engineers; maintained version control workflows in GitLab and GitHub.",
     ],
