@@ -93,7 +93,17 @@ const experience = [
     ],
   },
   {
-    role: "Quantitative Analyst",
+    role: "Data Scientist (Consultant)",
+    company: "Kainos",
+    location: "",
+    period: "2021 – 2022",
+    bullets: [
+      "Developed explainable machine-learning solutions for client projects using TensorFlow and NumPy, translating business requirements into practical modeling pipelines.",
+      "Became the first employee in the company to earn the Google Cloud Professional Machine Learning Engineer certification.",
+    ],
+  },
+  {
+    role: "Quantitative Researcher",
     company: "Superbet",
     location: "London, UK",
     period: "2018 – 2020",
